@@ -62,17 +62,17 @@ ave-tBodyAcc-std-Z                     numeric            180    Average std bod
 
 ave-tGravityAcc-mean-X                 numeric            180    Average mean gravity acceleration in X
 
-ave-tGravityAcc-mean-Y              numeric            180    Average mean gravity acceleration in Y    
+ave-tGravityAcc-mean-Y 		             numeric            180    Average mean gravity acceleration in Y    
 
-ave-tGravityAcc-mean-Z              numeric            180    Average mean gravity acceleration in Z  
+ave-tGravityAcc-mean-Z 		             numeric            180    Average mean gravity acceleration in Z  
 
-ave-tGravityAcc-std-X               numeric            180    Average std gravity acceleration in X 
+ave-tGravityAcc-std-X  		             numeric            180    Average std gravity acceleration in X 
 
-ave-tGravityAcc-std-Y               numeric            180    Average std gravity acceleration in Y
+ave-tGravityAcc-std-Y  		             numeric            180    Average std gravity acceleration in Y
 
-ave-tGravityAcc-std-Z               numeric            180    Average std gravity acceleration in Z
+ave-tGravityAcc-std-Z  		             numeric            180    Average std gravity acceleration in Z
 
-ave-tBodyAccJerk-mean-X             numeric            180    Average mean body acc. jerk signal in X
+ave-tBodyAccJerk-mean-X  		           numeric            180    Average mean body acc. jerk signal in X
 
 ave-tBodyAccJerk-mean-Y             numeric            180    Average mean body acc. jerk signal in Y   
 
