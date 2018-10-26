@@ -40,27 +40,27 @@ Number of variables:            81
 Codebook summary table:
 
 -------------------------------------------------------------------------------------------------------
-Variable                            Class         # unique    Description  
+Variable                               Class           # unique     Description  
 ----------------------------------- ------------ ---------- -------------------------------------------
-subjectID                           integer             30    ID of the subject in current observation
+subjectID                              integer             30    ID of the subject in current observation
 
-activity                            character            6    Type of activity under observation
+activity                                character            6    Type of activity under observation
 
 Time domain signal variables  -----------------------------------------------------------------
 
-ave-tBodyAcc-mean-X                 numeric            180    Average mean body acceleration in X 
+ave-tBodyAcc-mean-X                    numeric            180    Average mean body acceleration in X 
 
-ave-tBodyAcc-mean-Y                 numeric            180    Average mean body acceleration in Y       
+ave-tBodyAcc-mean-Y                     numeric            180    Average mean body acceleration in Y       
 
-ave-tBodyAcc-mean-Z                 numeric            180    Average mean body acceleration in Z       
+ave-tBodyAcc-mean-Z                    numeric            180    Average mean body acceleration in Z       
 
-ave-tBodyAcc-std-X                  numeric            180    Average std body acceleration in X
+ave-tBodyAcc-std-X                      numeric            180    Average std body acceleration in X
 
-ave-tBodyAcc-std-Y                  numeric            180    Average std body acceleration in Y        
+ave-tBodyAcc-std-Y                     numeric            180    Average std body acceleration in Y        
 
-ave-tBodyAcc-std-Z                  numeric            180    Average std body acceleration in Z
+ave-tBodyAcc-std-Z                     numeric            180    Average std body acceleration in Z
 
-ave-tGravityAcc-mean-X              numeric            180    Average mean gravity acceleration in X
+ave-tGravityAcc-mean-X                 numeric            180    Average mean gravity acceleration in X
 
 ave-tGravityAcc-mean-Y              numeric            180    Average mean gravity acceleration in Y    
 
