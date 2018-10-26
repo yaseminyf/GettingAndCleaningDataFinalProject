@@ -29,6 +29,7 @@ In the tidy dataset only the variables that are the mean and standard deviation 
 ----------------------------------------------------------------------------------------------
 The tidy dataset has the following dimensions:
 
+<<<<<<< HEAD
 ----------------------------------------------
 Number of observations:        180
 
@@ -36,6 +37,12 @@ Number of variables:            81
 
 ----------------------------------------------
 ----------------------------------------------------------------------------------------------
+=======
+Number of observations        180
+Number of variables            81
+
+---------------------------------
+>>>>>>> 7d629fcdc70bd18c3b73dbf1ea90ccace3e50103
 
 Codebook summary table:
 
@@ -46,7 +53,11 @@ subjectID                           integer             30    ID of the subject 
 
 activity                            character            6    Type of activity under observation
 
+<<<<<<< HEAD
 Time domain signal variables  -----------------------------------------------------------------
+=======
+------------   Time domain signal variables  --------------------------------------------------
+>>>>>>> 7d629fcdc70bd18c3b73dbf1ea90ccace3e50103
 
 ave-tBodyAcc-mean-X                 numeric            180    Average mean body acceleration in X 
 
@@ -92,6 +103,7 @@ ave-tBodyGyro-mean-Z                numeric            180    Average mean body 
 
 ave-tBodyGyro-std-X                 numeric            180    Average std body gyro signal in X         
 
+<<<<<<< HEAD
 ave-tBodyGyro-std-Y                 numeric            180    Average std body gyro signal in Y       
 
 ave-tBodyGyro-std-Z                 numeric            180    Average std body gyro signal in Z     
@@ -212,6 +224,128 @@ ave-fBodyBodyGyroJerkMag-std        numeric            180    Average std body g
 
 ave-fBodyBodyGyroJerkMag-meanFreq   numeric            180    Average mean body gyro jerk mag. freq.  
               
+=======
+ave-tBodyGyro-std-Y                 numeric            180    Average std body gyro signal in Y 
+
+ave-tBodyGyro-std-Z                 numeric            180    Average std body gyro signal in Z  
+
+ave-tBodyGyroJerk-mean-X            numeric            180    Average mean gyro jerk signal in X    
+
+ave-tBodyGyroJerk-mean-Y            numeric            180    Average mean gyro jerk signal in Y   
+
+ave-tBodyGyroJerk-mean-Z            numeric            180    Average mean gyro jerk signal in Z   
+
+ave-tBodyGyroJerk-std-X             numeric            180    Average std gyro jerk signal in X  
+
+ave-tBodyGyroJerk-std-Y             numeric            180    Average std gyro jerk signal in Y  
+
+ave-tBodyGyroJerk-std-Z             numeric            180    Average std gyro jerk signal in Z   
+
+------   Euclidian norm magnitude of time domain signal variables ------------------------------------
+
+ave-tBodyAccMag-mean                numeric            180    Average mean body acceleration magnitude  
+
+ave-tBodyAccMag-std                 numeric            180    Average std body acceleration magnitude  
+
+ave-tGravityAccMag-mean             numeric            180    Average mean gravity acceleration magnitude
+
+ave-tGravityAccMag-std              numeric            180    Average std gravity acceleration magnitude   
+
+ave-tBodyAccJerkMag-mean            numeric            180    Average mean body acc. jerk magnitude   
+
+ave-tBodyAccJerkMag-std             numeric            180    Average std body acc. jerk magnitude   
+
+ave-tBodyGyroMag-mean               numeric            180    Average mean body gyro magnitude    
+
+ave-tBodyGyroMag-std                numeric            180    Average std body gyro magnitude  
+
+ave-tBodyGyroJerkMag-mean           numeric            180    Average mean body gyro jerk magnitude  
+
+ave-tBodyGyroJerkMag-std            numeric            180    Average std body gyro jerk magnitude  
+
+-----------   Frequency domain signal variables  ---------------------------------------------------
+
+ave-fBodyAcc-mean-X                 numeric            180    Average mean body acceleration in X    
+
+ave-fBodyAcc-mean-Y                 numeric            180    Average mean body acceleration in Y 
+
+ave-fBodyAcc-mean-Z                 numeric            180    Average mean body acceleration in Z 
+
+ave-fBodyAcc-std-X                  numeric            180    Average std body acceleration in X 
+
+ave-fBodyAcc-std-Y                  numeric            180    Average std body acceleration in Y 
+
+ave-fBodyAcc-std-Z                  numeric            180    Average std body acceleration in Z        
+
+ave-fBodyAcc-meanFreq-X             numeric            180    Average mean body acc. frequency in X 
+
+ave-fBodyAcc-meanFreq-Y             numeric            180    Average mean body acc. frequency in Y   
+
+ave-fBodyAcc-meanFreq-Z             numeric            180    Average mean body acc. frequency in Z 
+
+ave-fBodyAccJerk-mean-X             numeric            180    Average mean body acc. jerk in X  
+
+ave-fBodyAccJerk-mean-Y             numeric            180    Average mean body acc. jerk in Y  
+
+ave-fBodyAccJerk-mean-Z             numeric            180    Average mean body acc. jerk in Z 
+
+ave-fBodyAccJerk-std-X              numeric            180    Average std body acc. jerk in X  
+
+ave-fBodyAccJerk-std-Y              numeric            180    Average std body acc. jerk in Y           
+
+ave-fBodyAccJerk-std-Z              numeric            180    Average std body acc. jerk in Z  
+
+ave-fBodyAccJerk-meanFreq-X         numeric            180    Average mean body acc. jerk frequency in X 
+
+ave-fBodyAccJerk-meanFreq-Y         numeric            180    Average mean body acc. jerk frequency in Y 
+
+ave-fBodyAccJerk-meanFreq-Z         numeric            180    Average mean body acc. jerk frequency in Z 
+
+ave-fBodyGyro-mean-X                numeric            180    Average mean body gyro signal in X  
+
+ave-fBodyGyro-mean-Y                numeric            180    Average mean body gyro signal in Y 
+
+ave-fBodyGyro-mean-Z                numeric            180    Average mean body gyro signal in Z 
+
+ave-fBodyGyro-std-X                 numeric            180    Average std body gyro signal in X 
+
+ave-fBodyGyro-std-Y                 numeric            180    Average std body gyro signal in Y         
+
+ave-fBodyGyro-std-Z                 numeric            180    Average std body gyro signal in Z 
+
+ave-fBodyGyro-meanFreq-X            numeric            180    Average mean body gyro frequency in X  
+
+ave-fBodyGyro-meanFreq-Y            numeric            180    Average mean body gyro frequency in Y     
+
+ave-fBodyGyro-meanFreq-Z            numeric            180    Average mean body gyro frequency in Z  
+
+------  Euclidian norm magnitude of frequency domain signal variables --------------------------------
+
+ave-fBodyAccMag-mean                numeric            180    Average mean body acceleration magnitude 
+
+ave-fBodyAccMag-std                 numeric            180    Average std body acceleration magnitude   
+
+ave-fBodyAccMag-meanFreq            numeric            180    Average mean body acc. magnitude frequency 
+
+ave-fBodyBodyAccJerkMag-mean        numeric            180    Average mean body acc. jerk magnitude  
+
+ave-fBodyBodyAccJerkMag-std         numeric            180    Average std body acc. jerk magnitude   
+
+ave-fBodyBodyAccJerkMag-meanFreq    numeric            180    Average mean body acc. jerk magnitude freq. 
+
+ave-fBodyBodyGyroMag-mean           numeric            180    Average mean body gyro magnitude    
+
+ave-fBodyBodyGyroMag-std            numeric            180    Average std body gyro magnitude 
+
+ave-fBodyBodyGyroMag-meanFreq       numeric            180    Average mean body gyro magnitude frequency  
+
+ave-fBodyBodyGyroJerkMag-mean       numeric            180    Average mean body gyro jerk magnitude     
+
+ave-fBodyBodyGyroJerkMag-std        numeric            180    Average std body gyro jerk magnitude  
+
+ave-fBodyBodyGyroJerkMag-meanFreq   numeric            180    Average mean body gyro jerk magnitude freq. 
+
+>>>>>>> 7d629fcdc70bd18c3b73dbf1ea90ccace3e50103
 ------------------------------------------------------------------------------------------------
 
 
