@@ -1,7 +1,4 @@
-It is assumed that the data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip is already retrieved and unzipped, that the current directory has the files: activity_labels.txt
-                                                                  features.txt
-and the subdirectories: ./test
-                        ./train
+It is assumed that the data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip is already retrieved and unzipped, that the current directory has the files: activity_labels.txt, features.txt and the subdirectories: ./test, ./train.
 The files subject_test.txt, X_test.txt and y_test.txt are under the directory ./test.
 The files subject_train.txt, X_train.txt and y_train.txt are under the directory ./train.
 
