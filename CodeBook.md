@@ -37,180 +37,180 @@ Number of variables:            81
 ----------------------------------------------
 ----------------------------------------------------------------------------------------------
 
-Codebook summary table:
+Variable codebook:
 
 -------------------------------------------------------------------------------------------------------
-Variable                            Class         # unique    Description  
------------------------------------ ------------ ---------- -------------------------------------------
-subjectID                           integer             30    ID of the subject in current observation
+Variable name (class)(# of unique values): Description  
 
-activity                            character            6    Type of activity under observation
+subjectID (integer)(30): ID of the subject in current observation
+
+activity (character)(6): Type of activity under observation
 
 Time domain signal variables  -----------------------------------------------------------------
 
-ave-tBodyAcc-mean-X                 numeric            180    Average mean body acceleration in X 
+ave-tBodyAcc-mean-X (numeric)(180): Average mean body acceleration in X 
 
-ave-tBodyAcc-mean-Y                 numeric            180    Average mean body acceleration in Y       
+ave-tBodyAcc-mean-Y (numeric)(180): Average mean body acceleration in Y       
 
-ave-tBodyAcc-mean-Z                 numeric            180    Average mean body acceleration in Z       
+ave-tBodyAcc-mean-Z (numeric)(180): Average mean body acceleration in Z       
 
-ave-tBodyAcc-std-X                  numeric            180    Average std body acceleration in X
+ave-tBodyAcc-std-X (numeric)(180): Average std body acceleration in X
 
-ave-tBodyAcc-std-Y                  numeric            180    Average std body acceleration in Y        
+ave-tBodyAcc-std-Y (numeric)(180): Average std body acceleration in Y        
 
-ave-tBodyAcc-std-Z                  numeric            180    Average std body acceleration in Z
+ave-tBodyAcc-std-Z (numeric)(180): Average std body acceleration in Z
 
-ave-tGravityAcc-mean-X              numeric            180    Average mean gravity acceleration in X
+ave-tGravityAcc-mean-X (numeric)(180): Average mean gravity acceleration in X
 
-ave-tGravityAcc-mean-Y              numeric            180    Average mean gravity acceleration in Y    
+ave-tGravityAcc-mean-Y (numeric)(180): Average mean gravity acceleration in Y    
 
-ave-tGravityAcc-mean-Z              numeric            180    Average mean gravity acceleration in Z  
+ave-tGravityAcc-mean-Z (numeric)(180): Average mean gravity acceleration in Z  
 
-ave-tGravityAcc-std-X               numeric            180    Average std gravity acceleration in X 
+ave-tGravityAcc-std-X (numeric)(180): Average std gravity acceleration in X 
 
-ave-tGravityAcc-std-Y               numeric            180    Average std gravity acceleration in Y
+ave-tGravityAcc-std-Y (numeric)(180): Average std gravity acceleration in Y
 
-ave-tGravityAcc-std-Z               numeric            180    Average std gravity acceleration in Z
+ave-tGravityAcc-std-Z (numeric)(180): Average std gravity acceleration in Z
 
-ave-tBodyAccJerk-mean-X             numeric            180    Average mean body acc. jerk signal in X
+ave-tBodyAccJerk-mean-X (numeric)(180): Average mean body acc. jerk signal in X
 
-ave-tBodyAccJerk-mean-Y             numeric            180    Average mean body acc. jerk signal in Y   
+ave-tBodyAccJerk-mean-Y (numeric)(180): Average mean body acc. jerk signal in Y   
 
-ave-tBodyAccJerk-mean-Z             numeric            180    Average mean body acc. jerk signal in Z   
+ave-tBodyAccJerk-mean-Z (numeric)(180): Average mean body acc. jerk signal in Z   
 
-ave-tBodyAccJerk-std-X              numeric            180    Average std body acc. jerk signal in X    
+ave-tBodyAccJerk-std-X (numeric)(180): Average std body acc. jerk signal in X    
 
-ave-tBodyAccJerk-std-Y              numeric            180    Average std body acc. jerk signal in Y
+ave-tBodyAccJerk-std-Y (numeric)(180): Average std body acc. jerk signal in Y
 
-ave-tBodyAccJerk-std-Z              numeric            180    Average std body acc. jerk signal in Z
+ave-tBodyAccJerk-std-Z (numeric)(180): Average std body acc. jerk signal in Z
 
-ave-tBodyGyro-mean-X                numeric            180    Average mean body gyro signal in X        
+ave-tBodyGyro-mean-X (numeric)(180): Average mean body gyro signal in X        
 
-ave-tBodyGyro-mean-Y                numeric            180    Average mean body gyro signal in Y        
+ave-tBodyGyro-mean-Y (numeric)(180): Average mean body gyro signal in Y        
 
-ave-tBodyGyro-mean-Z                numeric            180    Average mean body gyro signal in Z        
+ave-tBodyGyro-mean-Z (numeric)(180): Average mean body gyro signal in Z        
 
-ave-tBodyGyro-std-X                 numeric            180    Average std body gyro signal in X         
+ave-tBodyGyro-std-X (numeric)(180): Average std body gyro signal in X         
 
-ave-tBodyGyro-std-Y                 numeric            180    Average std body gyro signal in Y       
+ave-tBodyGyro-std-Y (numeric)(180): Average std body gyro signal in Y       
 
-ave-tBodyGyro-std-Z                 numeric            180    Average std body gyro signal in Z     
+ave-tBodyGyro-std-Z (numeric)(180): Average std body gyro signal in Z     
 
-ave-tBodyGyroJerk-mean-X            numeric            180    Average mean gyro jerk signal in X  
+ave-tBodyGyroJerk-mean-X (numeric)(180): Average mean gyro jerk signal in X  
 
-ave-tBodyGyroJerk-mean-Y            numeric            180    Average mean gyro jerk signal in Y    
+ave-tBodyGyroJerk-mean-Y (numeric)(180): Average mean gyro jerk signal in Y    
 
-ave-tBodyGyroJerk-mean-Z            numeric            180    Average mean gyro jerk signal in Z  
+ave-tBodyGyroJerk-mean-Z (numeric)(180): Average mean gyro jerk signal in Z  
 
-ave-tBodyGyroJerk-std-X             numeric            180    Average std gyro jerk signal in X     
+ave-tBodyGyroJerk-std-X (numeric)(180): Average std gyro jerk signal in X     
 
-ave-tBodyGyroJerk-std-Y             numeric            180    Average std gyro jerk signal in Y   
+ave-tBodyGyroJerk-std-Y (numeric)(180): Average std gyro jerk signal in Y   
 
-ave-tBodyGyroJerk-std-Z             numeric            180    Average std gyro jerk signal in Z     
+ave-tBodyGyroJerk-std-Z (numeric)(180): Average std gyro jerk signal in Z     
 
 Euclidian norm magnitude of time domain signal variables ------------------------------------
 
-ave-tBodyAccMag-mean                numeric            180    Average mean body acceleration magnitude
+ave-tBodyAccMag-mean (numeric)(180): Average mean body acceleration magnitude
 
-ave-tBodyAccMag-std                 numeric            180    Average std body acceleration magnitude
+ave-tBodyAccMag-std (numeric)(180): Average std body acceleration magnitude
 
-ave-tGravityAccMag-mean             numeric            180    Average mean gravity acc. magnitude
+ave-tGravityAccMag-mean (numeric)(180): Average mean gravity acc. magnitude
 
-ave-tGravityAccMag-std              numeric            180    Average std gravity acceleration magnitude
+ave-tGravityAccMag-std (numeric)(180): Average std gravity acceleration magnitude
 
-ave-tBodyAccJerkMag-mean            numeric            180    Average mean body acc. jerk magnitude   
+ave-tBodyAccJerkMag-mean (numeric)(180): Average mean body acc. jerk magnitude   
 
-ave-tBodyAccJerkMag-std             numeric            180    Average std body acc. jerk magnitude    
+ave-tBodyAccJerkMag-std (numeric)(180): Average std body acc. jerk magnitude    
 
-ave-tBodyGyroMag-mean               numeric            180    Average mean body gyro magnitude        
+ave-tBodyGyroMag-mean (numeric)(180): Average mean body gyro magnitude        
 
-ave-tBodyGyroMag-std                numeric            180    Average std body gyro magnitude         
+ave-tBodyGyroMag-std (numeric)(180): Average std body gyro magnitude         
 
-ave-tBodyGyroJerkMag-mean           numeric            180    Average mean body gyro jerk magnitude   
+ave-tBodyGyroJerkMag-mean (numeric)(180): Average mean body gyro jerk magnitude   
 
-ave-tBodyGyroJerkMag-std            numeric            180    Average std body gyro jerk magnitude    
+ave-tBodyGyroJerkMag-std (numeric)(180): Average std body gyro jerk magnitude    
 
 Frequency domain signal variables  --------------------------------------------------------
 
-ave-fBodyAcc-mean-X                 numeric            180    Average mean body acceleration in X     
+ave-fBodyAcc-mean-X (numeric)(180): Average mean body acceleration in X     
 
-ave-fBodyAcc-mean-Y                 numeric            180    Average mean body acceleration in Y     
+ave-fBodyAcc-mean-Y (numeric)(180): Average mean body acceleration in Y     
 
-ave-fBodyAcc-mean-Z                 numeric            180    Average mean body acceleration in Z     
+ave-fBodyAcc-mean-Z (numeric)(180): Average mean body acceleration in Z     
 
-ave-fBodyAcc-std-X                  numeric            180    Average std body acceleration in X      
+ave-fBodyAcc-std-X (numeric)(180): Average std body acceleration in X      
 
-ave-fBodyAcc-std-Y                  numeric            180    Average std body acceleration in Y    
+ave-fBodyAcc-std-Y (numeric)(180): Average std body acceleration in Y    
 
-ave-fBodyAcc-std-Z                  numeric            180    Average std body acceleration in Z        
+ave-fBodyAcc-std-Z (numeric)(180): Average std body acceleration in Z        
 
-ave-fBodyAcc-meanFreq-X             numeric            180    Average mean body acc. frequency in X   
+ave-fBodyAcc-meanFreq-X (numeric)(180): Average mean body acc. frequency in X   
 
-ave-fBodyAcc-meanFreq-Y             numeric            180    Average mean body acc. frequency in Y 
+ave-fBodyAcc-meanFreq-Y (numeric)(180): Average mean body acc. frequency in Y 
 
-ave-fBodyAcc-meanFreq-Z             numeric            180    Average mean body acc. frequency in Z 
+ave-fBodyAcc-meanFreq-Z (numeric)(180): Average mean body acc. frequency in Z 
 
-ave-fBodyAccJerk-mean-X             numeric            180    Average mean body acc. jerk in X      
+ave-fBodyAccJerk-mean-X (numeric)(180): Average mean body acc. jerk in X      
 
-ave-fBodyAccJerk-mean-Y             numeric            180    Average mean body acc. jerk in Y      
+ave-fBodyAccJerk-mean-Y (numeric)(180): Average mean body acc. jerk in Y      
 
-ave-fBodyAccJerk-mean-Z             numeric            180    Average mean body acc. jerk in Z        
+ave-fBodyAccJerk-mean-Z (numeric)(180): Average mean body acc. jerk in Z        
 
-ave-fBodyAccJerk-std-X              numeric            180    Average std body acc. jerk in X         
+ave-fBodyAccJerk-std-X (numeric)(180): Average std body acc. jerk in X         
 
-ave-fBodyAccJerk-std-Y              numeric            180    Average std body acc. jerk in Y           
+ave-fBodyAccJerk-std-Y (numeric)(180): Average std body acc. jerk in Y           
 
-ave-fBodyAccJerk-std-Z              numeric            180    Average std body acc. jerk in Z         
+ave-fBodyAccJerk-std-Z (numeric)(180): Average std body acc. jerk in Z         
 
-ave-fBodyAccJerk-meanFreq-X         numeric            180    Average mean body acc. jerk frequency in X
+ave-fBodyAccJerk-meanFreq-X (numeric)(180): Average mean body acc. jerk frequency in X
 
-ave-fBodyAccJerk-meanFreq-Y         numeric            180    Average mean body acc. jerk frequency in Y
+ave-fBodyAccJerk-meanFreq-Y (numeric)(180): Average mean body acc. jerk frequency in Y
 
-ave-fBodyAccJerk-meanFreq-Z         numeric            180    Average mean body acc. jerk frequency in Z
+ave-fBodyAccJerk-meanFreq-Z (numeric)(180): Average mean body acc. jerk frequency in Z
 
-ave-fBodyGyro-mean-X                numeric            180    Average mean body gyro signal in X    
+ave-fBodyGyro-mean-X (numeric)(180): Average mean body gyro signal in X    
 
-ave-fBodyGyro-mean-Y                numeric            180    Average mean body gyro signal in Y      
+ave-fBodyGyro-mean-Y (numeric)(180): Average mean body gyro signal in Y      
 
-ave-fBodyGyro-mean-Z                numeric            180    Average mean body gyro signal in Z    
+ave-fBodyGyro-mean-Z (numeric)(180): Average mean body gyro signal in Z    
 
-ave-fBodyGyro-std-X                 numeric            180    Average std body gyro signal in X       
+ave-fBodyGyro-std-X (numeric)(180): Average std body gyro signal in X       
 
-ave-fBodyGyro-std-Y                 numeric            180    Average std body gyro signal in Y         
+ave-fBodyGyro-std-Y (numeric)(180): Average std body gyro signal in Y         
 
-ave-fBodyGyro-std-Z                 numeric            180    Average std body gyro signal in Z     
+ave-fBodyGyro-std-Z (numeric)(180): Average std body gyro signal in Z     
 
-ave-fBodyGyro-meanFreq-X            numeric            180    Average mean body gyro frequency in X 
+ave-fBodyGyro-meanFreq-X (numeric)(180): Average mean body gyro frequency in X 
 
-ave-fBodyGyro-meanFreq-Y            numeric            180    Average mean body gyro frequency in Y     
+ave-fBodyGyro-meanFreq-Y (numeric)(180): Average mean body gyro frequency in Y     
 
-ave-fBodyGyro-meanFreq-Z            numeric            180    Average mean body gyro frequency in Z   
+ave-fBodyGyro-meanFreq-Z (numeric)(180): Average mean body gyro frequency in Z   
 
 Euclidian norm magnitude of frequency domain signal variables --------------------------------
 
-ave-fBodyAccMag-mean                numeric            180    Average mean body acceleration magnitude
+ave-fBodyAccMag-mean (numeric)(180): Average mean body acceleration magnitude
 
-ave-fBodyAccMag-std                 numeric            180    Average std body acceleration magnitude   
+ave-fBodyAccMag-std (numeric)(180): Average std body acceleration magnitude   
 
-ave-fBodyAccMag-meanFreq            numeric            180    Average mean body acc. magnitude frequency
+ave-fBodyAccMag-meanFreq (numeric)(180): Average mean body acc. magnitude frequency
 
-ave-fBodyBodyAccJerkMag-mean        numeric            180    Average mean body acc. jerk magnitude 
+ave-fBodyBodyAccJerkMag-mean (numeric)(180): Average mean body acc. jerk magnitude 
 
-ave-fBodyBodyAccJerkMag-std         numeric            180    Average std body acc. jerk magnitude    
+ave-fBodyBodyAccJerkMag-std (numeric)(180): Average std body acc. jerk magnitude    
 
-ave-fBodyBodyAccJerkMag-meanFreq    numeric            180    Average mean body acc.jerk magnitude freq.
+ave-fBodyBodyAccJerkMag-meanFreq (numeric)(180): Average mean body acc.jerk magnitude freq.
 
-ave-fBodyBodyGyroMag-mean           numeric            180    Average mean body gyro magnitude    
+ave-fBodyBodyGyroMag-mean (numeric)(180): Average mean body gyro magnitude    
 
-ave-fBodyBodyGyroMag-std            numeric            180    Average std body gyro magnitude         
+ave-fBodyBodyGyroMag-std (numeric)(180): Average std body gyro magnitude         
 
-ave-fBodyBodyGyroMag-meanFreq       numeric            180    Average mean body gyro magnitude frequency
+ave-fBodyBodyGyroMag-meanFreq (numeric)(180): Average mean body gyro magnitude frequency
 
-ave-fBodyBodyGyroJerkMag-mean       numeric            180    Average mean body gyro jerk magnitude     
+ave-fBodyBodyGyroJerkMag-mean (numeric)(180): Average mean body gyro jerk magnitude     
 
-ave-fBodyBodyGyroJerkMag-std        numeric            180    Average std body gyro jerk magnitude    
+ave-fBodyBodyGyroJerkMag-std (numeric)(180): Average std body gyro jerk magnitude    
 
-ave-fBodyBodyGyroJerkMag-meanFreq   numeric            180    Average mean body gyro jerk mag. freq.  
+ave-fBodyBodyGyroJerkMag-meanFreq (numeric)(180): Average mean body gyro jerk mag. freq.  
               
 ------------------------------------------------------------------------------------------------
 
